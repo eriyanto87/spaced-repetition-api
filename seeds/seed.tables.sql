@@ -23,7 +23,7 @@ INSERT INTO "word" ("id", "language_id", "original", "translation", "next")
 VALUES
   (1, 1, 'makan', 'eat', 2),
   (2, 1, 'tolong', 'help', 3),
-  (3, 1, 'Terima Kasih', 'Thank You', 4),
+  (3, 1, 'terima kasih', 'thank you', 4),
   (4, 1, 'bagus', 'good', 5),
   (5, 1, 'baik', 'fine', 6),
   (6, 1, 'suka', 'like', 7),

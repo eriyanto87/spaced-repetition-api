@@ -55,7 +55,7 @@ const UserService = {
       const languageWords = [
         ["makan", "eat", 2],
         ["tolong", "help", 3],
-        ["Terima Kasih", "Thank You", 4],
+        ["terima kasih", "thank you", 4],
         ["bagus", "good", 5],
         ["baik", "fine", 6],
         ["suka", "like", 7],

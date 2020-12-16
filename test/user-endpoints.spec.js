@@ -183,7 +183,7 @@ describe("User Endpoints", function () {
           words: [
             { original: "makan", translation: "eat" },
             { original: "tolong", translation: "help" },
-            { original: "Terima Kasih", translation: "Thank You" },
+            { original: "terima kasih", translation: "thank you" },
             { original: "bagus", translation: "good" },
             { original: "baik", translation: "fine" },
             { original: "suka", translation: "like" },
