@@ -70,6 +70,7 @@ languageRouter.get("/head", async (req, res, next) => {
 });
 
 languageRouter.post("/guess", bodyParser, async (req, res, next) => {
+  //example response
   //{
   //   "nextWord": "test-next-word-from-correct-guess",
   //   "wordCorrectCount": 111,
