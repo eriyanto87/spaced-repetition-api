@@ -162,7 +162,6 @@ languageRouter.post("/guess", bodyParser, async (req, res, next) => {
       temp.value.next = temp.next.value.id;
 
       await LanguageService.updateWordsTable(
-        // once our list is correct, we persist those changes to the databse
         req.app.get("db"),
         toArray(list),
         req.language.id,

@@ -1,5 +1,9 @@
 # Spaced repetition API!
 
+- [Live_App](https://spaced-repetition-one.vercel.app/)
+- [Server_Side_Repo](https://github.com/eriyanto87/spaced-repetition-api)
+- [Client_Side_Repo](https://github.com/eriyanto87/spaced-repetition-client)
+
 ## Local dev setup
 
 If using user `dunder-mifflin`:
@@ -27,7 +31,7 @@ For tests involving time to run properly, configure your Postgres database to ru
 1. Locate the `postgresql.conf` file for your Postgres installation.
    1. E.g. for an OS X, Homebrew install: `/usr/local/var/postgres/postgresql.conf`
    2. E.g. on Windows, _maybe_: `C:\Program Files\PostgreSQL\11.2\data\postgresql.conf`
-   3. E.g  on Ubuntu 18.04 probably: '/etc/postgresql/10/main/postgresql.conf'
+   3. E.g on Ubuntu 18.04 probably: '/etc/postgresql/10/main/postgresql.conf'
 2. Find the `timezone` line and set it to `UTC`:
 
 ```conf
